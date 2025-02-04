@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+   background-color: rgb(14, 14, 49);
+color:white;
+}
+.Contact{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap:30px;
+
+}
+form{
+    display: flex;
+    border:none;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    padding:60px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:400px;
+    height:500px;
+    color:white;
+    border-radius: 20px;
+}
+form input,textarea{
+height:50px;
+background-color: rgb(214, 216, 218);
+border: none;
+}
+.submit{
+    width: 200px;
+    background-color:rgb(14, 14, 49);
+    border:none;
+    color:white;
+    display: block;
+    margin:auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

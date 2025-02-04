@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/HTML/form-assignment-2/style.css">
+</head>
+<body>
+    <div class="Contact">
+        <div><h1>Contact Us</h1></div>
+        <form action="">
+            
+            <label for="name">Name:</label>
+            <input id="name"type="text" placeholder="Enter Name" required>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Email" required>
+            <label for="num">Phone Number:</label>
+            <input id="num" type="tel" pattern="[0-9]{10}" maxlength="10"  placeholder="Enter 10 digit number" required>
+            <label for="msg">Message:</label>
+            <textarea name="" id="msg" required></textarea>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
